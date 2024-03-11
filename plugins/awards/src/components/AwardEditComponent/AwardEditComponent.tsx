@@ -223,9 +223,6 @@ export const AwardEditCard = ({ award = emptyAward }: AwardEditCardProps) => {
               <InputLabel>Award logo (3:1 aspect ratio)</InputLabel>
             </Grid>
             <Grid item>
-              <img alt="" src={awardImage} height="200" width="600" />
-            </Grid>
-            <Grid item>
               <Button
                 component="label"
                 variant="contained"
